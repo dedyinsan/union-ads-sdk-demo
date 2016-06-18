@@ -27,7 +27,7 @@ public class BannerFragment extends Fragment {
   private TextView mTvStatus;
 
   /**
-   * You should use your own **PUB** in production
+   * pub:chenjp@dedyinsandown3ucwebcom
    */
   private static final String PUB = "ssr@debugbanner";
 
