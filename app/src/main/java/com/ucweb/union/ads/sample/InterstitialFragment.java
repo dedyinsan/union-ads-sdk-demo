@@ -27,10 +27,8 @@ public class InterstitialFragment extends Fragment {
   private Button mBtnShow;
   private TextView mTvStatus;
 
-  /**
-   * You should use your own **PUB** in production
-   */
-  private static final String PUB = "ssr@debuginterstitial";
+
+  private static final String PUB = "chenjp@dedyinsandown3ucwebcom";
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
