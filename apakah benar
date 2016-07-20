@@ -1,0 +1,23 @@
+final InterstitialAd interstitial = new InterstitialAd(MainActivity.this);  
+interstitial.setAdListener(new AdListener() {
+    @Override
+    public void onAdLoaded(UnionAd ad) {
+        interstitial.show();
+    }
+    @Override
+    public void onAdClosed(UnionAd ad) {
+    }
+    @Override
+    public void onAdShowed(UnionAd ad) {
+    }
+    @Override
+    public void onAdClicked(UnionAd ad) {
+    }
+    @Override
+    public void onAdError(UnionAd ad, AdError adError) {
+    }
+});
+AdRequest adRequest = AdRequest.newBuilder()
+        .pub("Isha@regededyinsan")
+        .build();
+interstitial.loadAd(adRequest);
